@@ -2,16 +2,17 @@ package com.example.sandbox.rest;
 
 import com.example.sandbox.common.Coach;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoController {
-
     // define a private field for the dependency
     private Coach myCoach;
 
-    public DemoController(Coach theCoach) {
+    public DemoController(@Qualifier("cricketCoach") Coach theCoach) {
+        System.out.println("In constructor: " + getClass().getSimpleName());
         myCoach = theCoach;
     }
 
