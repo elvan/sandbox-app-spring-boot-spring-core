@@ -1,10 +1,13 @@
-package com.example.sandbox;
+package com.example.sandbox.rest;
+
+import com.example.sandbox.common.Coach;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoController {
+
     // define a private field for the dependency
     private Coach myCoach;
 

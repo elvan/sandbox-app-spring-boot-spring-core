@@ -1,4 +1,4 @@
-package com.example.sandbox;
+package com.example.sandbox.common;
 
 import org.springframework.stereotype.Component;
 
