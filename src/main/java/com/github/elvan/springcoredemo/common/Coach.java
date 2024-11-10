@@ -1,4 +1,4 @@
-package com.github.elvan.springcoredemo;
+package com.github.elvan.springcoredemo.common;
 
 public interface Coach {
 

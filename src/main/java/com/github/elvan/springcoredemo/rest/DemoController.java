@@ -1,5 +1,6 @@
-package com.github.elvan.springcoredemo;
+package com.github.elvan.springcoredemo.rest;
 
+import com.github.elvan.springcoredemo.common.Coach;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
